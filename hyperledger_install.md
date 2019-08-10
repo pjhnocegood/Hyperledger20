@@ -9,8 +9,8 @@
 7. wget https://dl.google.com/go/go1.12.7.linux-amd64.tar.gz
 8. tar xvf go1.12.7.linux-amd64.tar.gz 
 9. sudo cp -r go /usr/local
-10.curl -sSL http://bit.ly/2ysbOFE | bash -s -- 2.0.0-alpha 2.0.0-alpha 0.4.15
-11.vi ~/.bashrc 맨 아래에 아래 명령어 추가
+10. curl -sSL http://bit.ly/2ysbOFE | bash -s -- 2.0.0-alpha 2.0.0-alpha 0.4.15
+11. vi ~/.bashrc 맨 아래에 아래 명령어 추가
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin:$HOME/fabric-samples/bin
